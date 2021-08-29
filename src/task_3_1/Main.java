@@ -36,6 +36,9 @@ public class Main {
         Map<Double, Integer> mapForCopy = new HashMap<>();
         mapOfDouble.toMap(mapForCopy);
 
+//        Map<Integer, Integer> mapForCopy2 = new HashMap<>();
+//        mapOfDouble.toMap(mapForCopy2);
+
         mapForCopy.forEach((key, value) -> System.out.println("key: " + key + ", value: " + value));
 
 
